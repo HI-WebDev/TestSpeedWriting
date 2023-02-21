@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+/* :root{
+--main
+} */
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game {
+    height: 100vh;
+    background-color: #eee;
+    width: 100%;
+}
+
+.game .name {
+    background-color: #2196f3;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.container .instructions {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container .instructions span {
+    color: #e91e63;
+}
+
+.container .instructions span::before {
+    content: '[ ';
+    color: #009688;
+}
+
+.container .instructions span::after {
+    content: ' ]';
+    color: #009688;
+}
+
+.container .start {
+    background-color: #009688;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.container .word {
+    text-align: center;
+    color: #2196f3;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.container input {
+    background-color: white;
+    color: black;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    caret-color: #009688;
+}
+
+.container .nextWords {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container .nextWords div {
+    background-color: #2196f3;
+    width: 120px;
+    height: 31px;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    line-height: 31px;
+    border-radius: 5px;
+}
+
+
+.container .control {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .result {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container .result .good {
+    color: #2196f3;
+}
+
+.container .result .bad {
+    color: #e91e63;
+}
